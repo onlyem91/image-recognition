@@ -17,8 +17,10 @@ Next:
 1) build the other implementation of the Xor problem that we discussed, and run it
 2) dl4j can provide you with a web interface to show you some network information: use it for your network. 
 
-# Recognizer source code: https://github.com/klevis/CatAndDogRecognizer
-Simply execute bij starting the run class. (first time will be slow: 500 mb of weights will be downloaded)
+# Recognizer source code: 
+https://github.com/klevis/CatAndDogRecognizer
+
+Clone the repo and simply execute by starting the run class. (first time will be slow: 500 mb of weights will be downloaded)
 
 3) Try to find a picture of a dog or a cat (on the internet or from pictures of your pet) that can't be recognized correctly (you may adjust the treshold from 0,55 to 0,95. 
 
