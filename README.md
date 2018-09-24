@@ -13,6 +13,9 @@ This should almost immediately generate some visual feedback for you.
 
 # Recognizer source code: https://github.com/klevis/CatAndDogRecognizer
 Simply execute bij starting the run class. (first time will be slow: 500 mb of weights will be downloaded)
+Interesting other projects from the same author: http://ramok.tech/convolutional-neural-networks/
+
+
 
 
 
