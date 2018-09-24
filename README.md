@@ -10,13 +10,24 @@ Make sure you select the JDK instead of JRE. We'll assist you if necessary.
 run class org.deeplearning4j.examples.feedforward.classification.MLPClassifierLinear.
 This should almost immediately generate some visual feedback for you. 
 
+# XOR network
+The XorExample is included in the dj4j-example project. Take a look :) 
+
+Next:
+1) build the other implementation of the Xor problem that we discussed, and run it
+2) dl4j can provide you with a web interface to show you some network information: use it for your network. 
 
 # Recognizer source code: https://github.com/klevis/CatAndDogRecognizer
 Simply execute bij starting the run class. (first time will be slow: 500 mb of weights will be downloaded)
-Interesting other projects from the same author: http://ramok.tech/convolutional-neural-networks/
+
+3) Try to find a picture of a dog or a cat (on the internet or from pictures of your pet) that can't be recognized correctly (you may adjust the treshold from 0,55 to 0,95. 
+
+4) Inspect the source code of the recognizer application.
 
 
+# Investigate!
 
-
-
+- The dl4j example project contains loads of interesting models
+- dl4j tutorials: https://deeplearning4j.org/tutorials/setup (example code is written in Scala, ignore this, type similar stuff. it works.) 
+- Interesting other projects from the same author as the recognizer: http://ramok.tech/convolutional-neural-networks/
 
